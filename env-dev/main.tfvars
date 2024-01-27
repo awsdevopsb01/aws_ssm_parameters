@@ -1,6 +1,6 @@
 parameters = {
  frontend =
-  { name = "dev.catalogue.nldevopsb0_url",
-   value = "http://catalogue-dev.nldevopsb01.online:8080/"
+  { name = "dev.catalogue.nldevopsb01_url"
+    value = "http://catalogue-dev.nldevopsb01.online:8080/"
   }
 }
