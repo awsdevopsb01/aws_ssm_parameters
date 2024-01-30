@@ -7,6 +7,9 @@ parameters = [
   { name = "dev.catalogue.mongodb.nldevopsb01_endpoint", value = "mongodb-dev.nldevopsb01.online" },
   { name = "dev.catalogue.mongodb.nldevopsb01_host", value = "mongodb://mongodb-dev.nldevopsb01.online:27017/catalogue" },
   { name = "dev.user.redis.nldevopsb01_host", value = "REDIS_HOST=redis-dev.nldevopsb01.online" },
-  { name = "dev.user.mongodb.nldevopsb01_url", value = "mongodb://mongodb-dev.nldevopsb01.online:27017/users" }
+  { name = "dev.user.mongodb.nldevopsb01_url", value = "mongodb://mongodb-dev.nldevopsb01.online:27017/users" },
+  { name = "dev.cart.redis.nldevopsb01_host", value = "REDIS_HOST=redis-dev.nldevopsb01.online" },
+  { name = "dev.cart.catalogue.nldevopsb01_host", value = "CATALOGUE_HOST=catalogue-dev.nldevopsb01.online" },
+  { name = "dev.cart.catalogue.nldevopsb01_port", value = "CATALOGUE_PORT=8080" }
 
 ]
