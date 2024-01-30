@@ -5,5 +5,6 @@ parameters = [
   { name = "dev.frontend.shipping.nldevopsb01_url", value = "http://shipping-dev.nldevopsb01.online:8080/" },
   { name = "dev.frontend.payment.nldevopsb01_url", value = "http://payment-dev.nldevopsb01.online:8080/" },
   { name = "dev.catalogue.mongodb.nldevopsb01_endpoint", value = "mongodb-dev.nldevopsb01.online" }
+  { name = "dev.catalogue.mongodb.nldevopsb01_host", value = "mongodb://mongodb-dev.nldevopsb01.online:27017/catalogue" }
 
 ]
