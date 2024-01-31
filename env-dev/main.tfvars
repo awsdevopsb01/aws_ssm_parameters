@@ -10,6 +10,11 @@ parameters = [
   { name = "dev.user.mongodb.nldevopsb01_url", value = "mongodb://mongodb-dev.nldevopsb01.online:27017/users" },
   { name = "dev.cart.redis.nldevopsb01_host", value = "REDIS_HOST=redis-dev.nldevopsb01.online" },
   { name = "dev.cart.catalogue.nldevopsb01_host", value = "CATALOGUE_HOST=catalogue-dev.nldevopsb01.online" },
-  { name = "dev.cart.catalogue.nldevopsb01_port", value = "CATALOGUE_PORT=8080" }
+  { name = "dev.cart.catalogue.nldevopsb01_port", value = "CATALOGUE_PORT=8080" },
+  { name = "dev.shipping.mysql.nldevopsb01_endpoint", value = "mysql-dev.nldevopsb01.online" },
+  { name = "dev.shipping.mysql.nldevopsb01_db_user", value = "root" },
+  { name = "dev.shipping.mysql.nldevopsb01_pwd", value = "RoboShop@1" },
+  { name = "dev.shipping.cart.nldevopsb01_endpoint", value = "CART_ENDPOINT=cart-dev.nldevopsb01.online:8080" },
+  { name = "dev.shipping.mysqldb.nldevopsb01_host", value = "DB_HOST=mysql-dev.nldevopsb01.online" }
 
 ]
