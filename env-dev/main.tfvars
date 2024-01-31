@@ -13,8 +13,15 @@ parameters = [
   { name = "dev.cart.catalogue.nldevopsb01_port", value = "CATALOGUE_PORT=8080" },
   { name = "dev.shipping.mysql.nldevopsb01_endpoint", value = "mysql-dev.nldevopsb01.online" },
   { name = "dev.shipping.mysql.nldevopsb01_db_user", value = "root" },
-  { name = "dev.shipping.mysql.nldevopsb01_pwd", value = "RoboShop@1" },
+  { name = "dev.shipping.mysql.nldevopsb01_db_pwd", value = "RoboShop@1" },
   { name = "dev.shipping.cart.nldevopsb01_endpoint", value = "CART_ENDPOINT=cart-dev.nldevopsb01.online:8080" },
-  { name = "dev.shipping.mysqldb.nldevopsb01_host", value = "DB_HOST=mysql-dev.nldevopsb01.online" }
+  { name = "dev.shipping.mysqldb.nldevopsb01_host", value = "DB_HOST=mysql-dev.nldevopsb01.online" },
+  { name = "dev.payment.cart.nldevopsb01_host", value = "CART_HOST=cart-dev.nldevopsb01.online" },
+  { name = "dev.payment.cart.nldevopsb01_port", value = "8080" },
+  { name = "dev.payment.user.nldevopsb01_host", value = "USER_HOST=user-dev.nldevopsb01.online" },
+  { name = "dev.payment.user.nldevopsb01_port", value = "8080" },
+  { name = "dev.payment.rabbitmq.nldevopsb01_host", value = "AMQP_HOST=rabbitmq-dev.nldevopsb01.online" },
+  { name = "dev.payment.rabbitmq.nldevopsb01_user", value = "roboshop" },
+  { name = "dev.payment.rabbitmq.nldevopsb01_pwd", value = "roboshop123" }
 
 ]
