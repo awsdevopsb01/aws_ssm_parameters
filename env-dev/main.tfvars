@@ -21,7 +21,7 @@ parameters = [
   { name = "dev.payment.user.nldevopsb01_host", value = "USER_HOST=user-dev.nldevopsb01.online" },
   { name = "dev.payment.user.nldevopsb01_port", value = "8080" },
   { name = "dev.payment.rabbitmq.nldevopsb01_host", value = "AMQP_HOST=rabbitmq-dev.nldevopsb01.online" },
-  { name = "dev.payment.rabbitmq.nldevopsb01_user", value = "roboshop" },
-  { name = "dev.payment.rabbitmq.nldevopsb01_pwd", value = "roboshop123" }
+  { name = "dev.payment.rabbitmq.nldevopsb01_user", value = "AMQP_USER=roboshop" },
+  { name = "dev.payment.rabbitmq.nldevopsb01_pwd", value = "AMQP_PASS=roboshop123" }
 
 ]
