@@ -25,3 +25,8 @@ parameters = [
   { name = "dev.payment.rabbitmq.nldevopsb01_pwd", value = "AMQP_PASS=roboshop123" }
 
 ]
+
+docdb_parm = [
+  { name = "dev.docdb.db_user", value = "roboshop" },
+  { name = "dev.docdb.db_pwd", value = "roboshop123" }
+]
