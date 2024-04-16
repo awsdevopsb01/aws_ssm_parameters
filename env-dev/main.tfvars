@@ -28,5 +28,7 @@ parameters = [
 
 docdb_parm = [
   { name = "dev.docdb.db_user", value = "roboshop" },
-  { name = "dev.docdb.db_pwd", value = "roboshop123" }
+  { name = "dev.docdb.db_pwd", value = "roboshop123" },
+  { name = "dev.rds.db_user", value = "roboshop" },
+  { name = "dev.rds.db_pwd", value = "roboshop123" }
 ]
