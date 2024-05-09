@@ -32,5 +32,5 @@ docdb_parm = [
   { name = "dev.rds.db_user", value = "roboshop" },
   { name = "dev.rds.db_pwd", value = "roboshop123" },
   { name = "dev.docdb.mongo_url", value = "mongodb://roboshop:roboshop123@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"},
-  { name = "dev.catalogue.mongo_endpoint", value = "docdb-dev-docdb-instance.cxsscyyqa3vf.us-east-1.docdb.amazonaws.com" },
+  { name = "dev.catalogue.mongo_endpoint", value = "docdb-dev-docdb-instance.cxsscyyqa3vf.us-east-1.docdb.amazonaws.com" }
 ]
