@@ -4,6 +4,7 @@ parameters = [
   { name = "dev.frontend.cart.nldevopsb01_url", value = "http://cart-dev.nldevopsb01.online:80/" },
   { name = "dev.frontend.shipping.nldevopsb01_url", value = "http://shipping-dev.nldevopsb01.online:80/" },
   { name = "dev.frontend.payment.nldevopsb01_url", value = "http://payment-dev.nldevopsb01.online:80/" },
+
   { name = "dev.catalogue.mongodb.nldevopsb01_endpoint", value = "mongodb-dev.nldevopsb01.online" },
   { name = "dev.catalogue.mongodb.nldevopsb01_host", value = "mongodb://mongodb-dev.nldevopsb01.online:27017/catalogue" },
   { name = "dev.user.redis.nldevopsb01_host", value = "REDIS_HOST=redis-dev.nldevopsb01.online" },
@@ -33,4 +34,6 @@ docdb_parm = [
   { name = "dev.rds.db_pwd", value = "roboshop123" },
   { name = "dev.docdb.mongo_url", value = "mongodb://roboshop:roboshop123@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"},
   { name = "dev.catalogue.mongo_endpoint", value = "docdb-dev-docdb-instance.cxsscyyqa3vf.us-east-1.docdb.amazonaws.com" }
+  { name = "dev.user.ecache.nldevopsb01_url", value = "REDIS_HOST=elasticache-dev-elasticache-rpg.nlbmd7.ng.0001.use1.cache.amazonaws.com:6379" },
+  { name = "dev.user.mongo.nldevopsb01_url", value = "mongodb://roboshop:roboshop123@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"}
 ]
