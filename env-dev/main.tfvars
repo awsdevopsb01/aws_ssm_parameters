@@ -35,5 +35,9 @@ docdb_parm = [
   { name = "dev.docdb.mongo_url", value = "mongodb://roboshop:roboshop123@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"},
   { name = "dev.catalogue.mongo_endpoint", value = "docdb-dev-docdb-instance.cxsscyyqa3vf.us-east-1.docdb.amazonaws.com" },
   { name = "dev.user.ecache.nldevopsb01_url", value = "REDIS_HOST=elasticache-dev-elasticache-rpg.nlbmd7.ng.0001.use1.cache.amazonaws.com:6379" },
-  { name = "dev.user.mongo.nldevopsb01_url", value = "mongodb://roboshop:roboshop123@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"}
+  { name = "dev.user.mongo.nldevopsb01_url", value = "mongodb://roboshop:roboshop123@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"},
+  { name = "dev.cart.ecache.nldevopsb01_host", value = "REDIS_HOST=elasticache-dev-elasticache-rpg.nlbmd7.ng.0001.use1.cache.amazonaws.com:6379" },
+  { name = "dev.cart.catalogue.nldevopsb01_url", value = "CATALOGUE_HOST=catalogue-dev.nldevopsb01.online" },
+  { name = "dev.cart.catalogue.nldevopsb01_port_alb", value = "CATALOGUE_PORT=80" }
+
 ]
