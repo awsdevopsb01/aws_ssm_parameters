@@ -39,7 +39,7 @@ docdb_parm = [
   { name = "dev.cart.ecache.nldevopsb01_host", value = "REDIS_HOST=elasticache-dev-elasticache-rpg.nlbmd7.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.cart.catalogue.nldevopsb01_url", value = "CATALOGUE_HOST=catalogue-dev.nldevopsb01.online" },
   { name = "dev.cart.catalogue.nldevopsb01_port_alb", value = "CATALOGUE_PORT=80" },
-  { name = "dev.shipping.cart.nldevopsb01_url", value = "CART_ENDPOINT=cart-dev.nldevopsb01.online:8080" },
+  { name = "dev.shipping.cart.nldevopsb01_url", value = "CART_ENDPOINT=cart-dev.nldevopsb01.online:80" },
   { name = "dev.shipping.rds.nldevopsb01_host", value = "DB_HOST=aurora-dev-rds-instance.cxsscyyqa3vf.us-east-1.rds.amazonaws.com" },
   { name = "dev.shipping.rds.nldevopsb01_endpoint", value = "aurora-dev-rds-instance.cxsscyyqa3vf.us-east-1.rds.amazonaws.com" }
 ]
